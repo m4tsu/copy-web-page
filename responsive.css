@@ -1,0 +1,464 @@
+
+@media (min-width: 992px){
+    .container{
+        width: 970px;
+    }
+    .point_area{
+        width: 33%;
+    }
+
+    .coaching_img{
+        width: 41%;
+        float: left;
+    }
+    .coaching_text{
+        float: left;
+        width: 58%;
+    }
+
+    .skill{
+        width: 42%; 
+        float: left;
+    }
+    .course_dc{
+        margin-left: 8%;
+    }
+    .course_wac{
+        margin-right: 8%;
+    }
+
+
+}
+
+
+
+
+
+
+@media (max-width: 991px) and (min-width: 774px){
+    .hidden_991{
+        display: none;
+    }
+    #entry .container, #other_pages .container, footer .container{
+        width: 750px;
+    }
+    
+    #lesson_symbol{
+        display: none;
+    }
+
+    #style .container{
+        width: 95%;
+    }
+
+    .lessonStyle{
+        width: 100%;
+    }
+
+    #lesson_symbol{
+        display: none;
+    }
+    #lesson_symbol_m{
+        width: 60px !important;
+        height: 60px;
+        display: block;
+        margin: 0 auto 20px auto;
+    }
+
+    .lesson_box{
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+
+
+    .recommend{
+        margin-top: 15px;
+    }
+    .recommend p{
+        margin: 0;
+    }
+
+    #style img{
+        margin-bottom: 15px;
+    }
+
+    .o_p_btn{
+        width: 100%;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 773px){
+
+    .hidden_991{
+        display: none;
+    }
+
+    .visible_m{
+        display: block;
+    }
+    .mobile_section{
+        display: block;
+    }
+
+    .hidden_773{
+        display: none;
+    }
+
+    .section_title{
+        margin: 40px 0 20px;
+    }
+    .section_title h2{
+        font-size: 35px;
+    }
+    .section_title p{
+        font-size: 14px;
+    }
+    #header_top{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        background-color: #f8bd3f;
+        height: 50px;
+        border-bottom: 2px solid #ccc;
+    }
+
+    .header_left{
+        width: 40%;
+        height: 50px;
+    }
+    .logo_b{
+        display: none;
+    }
+    .logo_w{
+        display: block;
+    }
+    
+    
+    .header_right{
+        width: 170px;
+        height: 50px;
+    }
+
+    .hTop_btn{
+        margin-right: 3px;
+        float: right;
+        width: 70px;
+        padding: 4px 5px;
+        height: 33px;
+        line-height: 12px;
+        border-radius: 8px;
+        background-color: #ff005c;
+        color: #fff;
+        font-size: 11px;
+        }
+    .hTop_btn1{
+        padding-top: 8px;
+    }
+
+    .hTop_menu{
+        display: list-item;
+        width: 30px;
+        position: relative;
+        top: 2px;
+        right: -2px;
+        z-index: 999;
+    }
+    .menu_trigger{
+        display: inline-block;
+        position: relative;
+        width: 30px;
+        height: 24px;
+    }
+    .menu_trigger span {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background-color: #fff;
+        border-radius: 4px;
+    }
+    .menu_trigger span:nth-child(1){
+        top: 0;
+    }
+    .menu_trigger span:nth-child(2){
+        top: 10px;
+    }
+    .menu_trigger span:nth-child(3){
+        bottom: 0;
+    }
+
+
+    #page_wrapper{
+        margin-top: 50px;
+    }
+
+    .main{
+        text-align: center;
+    }
+    .main_text{
+        margin: 60px 0 0 0;
+    }
+    .main_text h2{
+        font-size: 2em;
+        letter-spacing: 0.06em;
+        line-height: 40px;
+        color: #fff;
+        text-shadow: 0px 1px 20px #30313d;
+        text-align: center;
+    }
+    .main_text h3{
+        margin-top: 20px;
+        font-size: 12px;
+        color: #fff;
+        text-shadow: 0px 1px 20px #30313d;
+        text-align: center;
+    }
+    #main_wrapper{
+        text-align: center;
+        width: 100%;
+        height: 420px;
+    }
+
+
+    .whats_title{
+        margin: 20px 0 20px;
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: 0.1em;
+        padding: 20px 0;
+        background-size: 100%;
+    }
+    #ww_title{
+        font-size: 35px;
+    }
+    #ww_subtitle{
+        font-size: 14px;
+    }
+    .whats_title .enpha{
+        font-size: 18px;
+    }  
+    .ww_text{
+        width: 100%;
+        margin: 0 auto;
+        background-color: #f2f2f2;
+        padding: 20px;
+        text-align: left;
+    }
+
+
+
+
+    .achivement{
+        background-color: #262626;
+        height: 150px;
+        position: relative;
+        margin-top: 40px;
+    }
+    .achivement .container{
+        overflow: visible;
+    }
+    #achivement_bgLine{
+        background-color: #383948;
+        width: 100%;
+        height: 50px;
+        position: absolute;
+        top: 50px;
+    }
+    .achivement_badges {
+        overflow: visible;
+        width: 100%;
+        display: table;
+    }
+    .achivement_badge{
+        position: relative;
+        height: 150px;
+        display: flex;
+        padding: 0 5px;
+    }
+    .badge1 img{
+        width: 95%;
+    }
+    .badge2 img{
+        width: 100%;
+    }
+    .badge3 img{
+        width: 95%;
+    }
+
+
+
+
+
+    #point .container{
+        width: 95%;
+    }
+    #points_mobile{
+        display: table;
+        overflow: hidden;
+    }
+    .point_area_m{
+        width: 100%;
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .point_head_m{
+        margin: 20px 0 15px;
+        overflow: hidden;
+
+    }
+    .point_head_m img{
+        max-width: 100%;
+        width: 25%;
+        float: left;
+        padding: 0 5px;
+        display: block;
+        height: auto;
+    }
+    #points_mobile .point_head_m h3{
+        float: left;
+        text-align: left;
+        width: 75%;
+        vertical-align: middle;
+    }
+    #points_mobile p{
+        text-align: left;
+    }
+
+
+    .coaching_main{
+        margin: 40px 10px 0;
+    }
+
+    #point .coaching_text h3{
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.08em;
+        border-left: 7px solid #ff9600;
+        padding-left: 7px;
+        margin-bottom: 8px;
+    }
+
+
+    .order_merit{
+        margin: 0;
+    }
+
+    .order_title{
+        width: 100%;
+    }
+    .order_title p{
+        font-size: 18px;
+        font-family: 'NotoSansCJKjp-Bold';
+        border-right: none;
+        padding: 30px 0;
+    }
+    .order_text{
+        padding: 0 15px;
+        width: 100%;
+    }
+    .order_text li{
+        font-size: 13px;
+        letter-spacing: -0.5px;
+    }
+
+    .students_flow{
+        margin: 20px auto;
+        padding: 30px 10px 10px 10px;
+    }
+    .students_flow_img{
+        display: none;
+    }
+    .students_flow_img_m{
+        display: block;
+        width: 100%;
+        margin-top: 5px;
+    }
+
+
+    #style .container{
+        width: 95%;
+    }
+
+    .lessonStyle{
+        width: 100%;
+    }
+
+    #lesson_symbol{
+        display: none;
+    }
+    #lesson_symbol_m{
+        width: 60px !important;
+        height: 60px;
+        display: block;
+        margin: 0 auto 20px auto;
+    }
+
+    .lesson_box{
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+
+
+    .recommend{
+        margin-top: 15px;
+    }
+    .recommend p{
+        margin: 0;
+    }
+
+    #style img{
+        margin-bottom: 15px;
+    }
+
+
+
+    .course_area{
+        display: block;
+        width: 300px;
+        margin: 0 auto;
+        border: 1px solid #edeef2;
+    }
+    .course_text{
+        display: none;
+    }
+    .course_wac{
+        margin-top: 40px;
+    }
+
+
+    .form_area{
+        width: 100%;
+    }
+
+    .o_p_btn{
+        width: 100%;
+    }
+    .o_p_btn a{
+        padding: 10px 20px;
+        width: 250px;
+        margin: 10px auto;
+        font-size: 16px;
+    }
+
+    .camp_detail{
+        padding-left: 15px;
+    }
+    .footer_item{
+        float: none;
+        width: auto;
+    }
+}
