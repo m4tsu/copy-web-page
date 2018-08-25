@@ -1,2 +1,3 @@
 # copy-web-page
-a copy of https://web-camp.io/
+html5, css3　練習
+ https://web-camp.io/　の模写
